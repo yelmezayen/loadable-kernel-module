@@ -1,1 +1,0 @@
-savedcmd_/home/mabdelm/Desktop/EmbeddedModule/Module.symvers :=  scripts/mod/modpost -M -m -a      -o /home/mabdelm/Desktop/EmbeddedModule/Module.symvers -T /home/mabdelm/Desktop/EmbeddedModule/modules.order -i Module.symvers -e 
