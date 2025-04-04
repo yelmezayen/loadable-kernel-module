@@ -1,7 +1,7 @@
 # 🔒 Secure Kernel Module Signing & Verification on Raspberry Pi  
 **Building and Signing LKMs for Embedded Security**  
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-*Presented by Mahmoud Gahelrasoul (00775836) and Yasin Elmezayen (22306157)*  
+
 
 ---
 
@@ -102,14 +102,10 @@ Signature verification overhead	Optimized SHA256 hashing
 │   ├── private_key.pem
 │   ├── public_key.pem
 │   └── combined.pem
-├── kernel_source/           # Raspberry Pi kernel
-│   ├── .config
-│   └── certs/
 ├── modules/                 # LKM source code
 │   ├── TestDriver.c
 │   └── Makefile
-└── scripts/                 # Signing utilities
-    └── sign-file
+    └── signature.bin
 
 ```
 
