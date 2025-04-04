@@ -1,0 +1,1 @@
+savedcmd_/home/mabdelm/Desktop/EmbeddedModule/TestDriver.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/mabdelm/Desktop/EmbeddedModule/TestDriver.ko /home/mabdelm/Desktop/EmbeddedModule/TestDriver.o /home/mabdelm/Desktop/EmbeddedModule/TestDriver.mod.o
